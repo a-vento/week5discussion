@@ -51,6 +51,10 @@ div.gallery {
 }
 
 .gallery img {
-    width: 250px;
+    width: 100%;
     border: 5px solid red;
+}
+
+.gallery img:nth-child(7) {
+    grid-column: 1 / 4;
 }
